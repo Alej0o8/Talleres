@@ -1,0 +1,12 @@
+def fibonacci(n):
+    secuencia = []
+    a, b = 0, 1
+    for _ in range(n):
+        secuencia.append(a)
+        a, b = b, a + b
+    return secuencia
+
+# Ejemplo de uso
+cantidad = 100  # Puedes cambiar este número
+print(f"Los primeros {cantidad} números de Fibonacci son:")
+print(fibonacci(cantidad))

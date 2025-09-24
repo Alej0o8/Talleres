@@ -1,0 +1,7 @@
+#hacer un programa que imprima los numeros en un rango de 1 a 100 que sean multiplos de 7 y terminados en 7"
+piso, techo = 0, 10001
+
+for numero in range (piso,techo):
+    if numero % 7 == 0 or numero % 10 == 7:
+        print(numero)
+        
